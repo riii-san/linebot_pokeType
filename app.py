@@ -58,7 +58,7 @@ def handle_message(event):
     else:
         line_bot_api.reply_message(
             event.reply_token,
-            TextSendMessage(text="入力されたポケモンは存在しません"))
+            TextSendMessage(text="入力されたポケモンは存在しません。"))
 
 
 if __name__ == "__main__":
